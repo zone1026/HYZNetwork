@@ -67,7 +67,7 @@ typedef void (^HYZRequestCompletionBlock) (__kindof HYZBaseRequest *request);
 
 /// 多媒体上传构建回调，一般用于multipart/form-data
 /// @param formData 多媒体资源
-typedef void (^YZConstructingBlock)(id <AFMultipartFormData> formData);
+typedef void (^HYZConstructingBlock)(id <AFMultipartFormData> formData);
 
 /// 请求结束后的代理，代理方法将在主线程中抛出
 @protocol YZRequestDelegate <NSObject>
@@ -158,7 +158,7 @@ typedef void (^YZConstructingBlock)(id <AFMultipartFormData> formData);
 
 /// 多媒体上传，文件构建回调
 /// @return 多媒体上传回调
-- (YZConstructingBlock)constructingBodyBlock;
+- (HYZConstructingBlock)constructingBodyBlock;
 
 /// 检查responseStatusCode是否有效
 /// @return responseStatusCode是否有效

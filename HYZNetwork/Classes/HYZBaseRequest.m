@@ -75,7 +75,7 @@
     return @{};
 }
 
-- (YZConstructingBlock)constructingBodyBlock {
+- (HYZConstructingBlock)constructingBodyBlock {
     return nil;
 }
 

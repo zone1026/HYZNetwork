@@ -131,7 +131,7 @@
     // 请求参数
     id param = [request requestParam];
     
-    YZConstructingBlock constructingBlock = [request constructingBodyBlock];
+    HYZConstructingBlock constructingBlock = [request constructingBodyBlock];
     AFHTTPRequestSerializer *requestSerializer = [self getRequestSerializerForRequest:request];
     
     switch (method) {
