@@ -13,7 +13,7 @@ HYZNetwork 是基于 [AFNetworking][AFNetworking] 封装的iOS端简易网络库
 
 HYZNetwork的基本思想是参考[YTKNetwork](https://github.com/yuantiku/YTKNetwork.git)的思路，把每一个网络请求封装成对象，与第三方网络库剥离，使第三方库类文件不必散落在各个业务模块中。
 
-目前HYZNetwork的功能相对比较单一，像接口数据缓存功能还没实现，在后期迭代中会逐渐实现。
+目前HYZNetwork的功能相对比较单一，比如接口数据存储功能还没实现，在后期迭代中会开发。
 
 ## 安装
 
@@ -183,11 +183,7 @@ typedef void (^HYZExampleResponseBlock)(__kindof HYZExampleResponseModel *respon
 
 ```
 
- 所以使用 YTKNetwork，你的每一种请求都需要继承 YTKRequest 类，通过覆盖父类的一些方法来构造指定的网络请求。把每一个网络请求封装成对象其实是使用了设计模式中的 Command 模式。
-
-每个网络请求继承 HYZExampleRequest 类后，需要用方法重写的方式，来指定网络请求的具体信息。如下是一个示例：
-
-比如我们要做一个登录接口。那么应该这么写，如下所示：
+每个网络请求继承 HYZExampleRequest 类后，需要用方法重写的方式，来指定网络请求的具体信息，比如我们要做一个登录接口。那么应该这么写，如下所示：
 
 ```objectivec
 // HYZLoginRequest.h
