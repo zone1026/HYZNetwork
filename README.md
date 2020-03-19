@@ -298,7 +298,7 @@ HYZNetwork 基于 [YTKNetwork][YTKNetwork] 和 [AFNetworking][AFNetworking]进�
 
 ## 联系方式
 
-zone1026, 1024105345@offcn.com
+zone1026, 1024105345@qq.com
 
 ## 协议
 
