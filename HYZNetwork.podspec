@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HYZNetwork'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'HYZNetwork是基于AFNetworking3.2.1封装的iOS端简易网络库，通过创建请求对象的方式处理网络接口'
 
 # This description is used to generate tags and improve search results.
