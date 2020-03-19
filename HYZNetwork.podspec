@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HYZNetwork'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of HYZNetwork.'
+  s.summary          = 'HYZNetwork是基于AFNetworking3.2.1封装的iOS端简易网络库，通过创建请求对象的方式处理网络接口'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+HYZNetwork是基于AFNetworking3.2.1封装的iOS端简易网络库，通过创建请求对象的方式处理网络接口
                        DESC
 
   s.homepage         = 'https://github.com/zone1026/HYZNetwork'
